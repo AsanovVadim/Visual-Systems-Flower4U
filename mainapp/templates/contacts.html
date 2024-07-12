@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+<title>{% block title %}
+    Contacts
+
+{% endblock %}</title>
+
+{% block content %}
+    <br/>
+    <h1>Контактная информация.</h1>
+<br/>
+<div class="gbg" style="display: block">
+	<div class="g1">Мы работаем</div>
+	<div class="b1">24 часа в сутки, 7 дней в неделю</div>
+	<div class="g1">Наши телефоны:</div>
+	<div class="b1">8 800 200-40-70 <span style=" font-size: 14px;line-height: 20px; color: rgb(109,111,110) ">(бесплатный звонок по России)</span>  </div>
+	<div class="b5">+7 (495) 727-14-06 <span style=" font-size: 14px; line-height: 20px; color: rgb(109,111,110) ">(телефон в Москве)</span>  </div>
+    <br/>
+<div class="g1">WhatsApp</div>
+<div class="b5">
+	<svg width="20" height="20" style="margin-top: 3px; vertical-align: top;">
+		<use xlink:href="/public/Florist/img/tpl2017/symbols.svg#whatsapp"></use>
+	</svg>
+	<a href="https://wa.me/74957271406" style="color: #000; text-decoration: underline" target="_blank">WhatsApp чат</a>
+</div>
+    <br/>
+<div class="g1">Telegram</div>
+<div class="b5">
+	<svg width="20" height="20" style="margin-top: 3px; vertical-align: top;">
+		<use xlink:href="/public/Florist/img/tpl2017/symbols.svg#telegram"></use>
+	</svg>
+	<a href="https://t.me/Florist_ru_official_bot" style="color: #000; text-decoration: underline" target="_blank">Телеграм чат</a>
+</div>
+<br/>
+<div class="padt">
+	<div>
+		<div class="bl4h">Е-майл</div>
+		<div class="phone" style="font-size: 18px"> <a style="margin-right: 0px; color: #000000; text-decoration: underline;" href="mailto:client@florist.ru" target="_blank">client@florist.ru</a> <span style=" font-size: 14px; line-height: 20px; color: rgb(109,111,110) ">(по вопросам качества работы компании)</span> </div>
+		<div class="phone" style="font-size: 18px"> <a style="margin-right: 0px; color: #000000; text-decoration: underline;" href="mailto:customercare@florist.ru" target="_blank">customercare@florist.ru</a> <span style=" font-size: 14px; line-height: 20px; color: rgb(109,111,110) ">(по вопросам, связанным с заказами)</span> </div>
+	</div>
+    <br/>
+    <br/>
+{% endblock %}
